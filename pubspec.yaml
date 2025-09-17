@@ -1,0 +1,45 @@
+name: video_pd
+description: Video Pd - A Flutter app for viewing and uploading documents, images, and videos with AWS S3 integration.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  aws_s3_api: ^2.0.0
+  file_picker: ^8.0.0
+  image_picker: ^1.0.4
+  video_player: ^2.8.1
+  photo_view: ^0.14.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  flutter_dotenv: ^5.1.0
+  dio: ^5.3.3
+  cached_network_image: ^3.3.0
+  flutter_pdfview: ^1.3.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  firebase_database: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: false

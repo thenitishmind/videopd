@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(33,150,243,0.3)"/>
+        </filter>
+    </defs>
+    
+    <!-- Main background with gradient -->
+    <rect width="1024" height="1024" rx="120" fill="url(#bgGradient)" filter="url(#shadow)"/>
+    
+    <!-- Document icon in corner -->
+    <rect x="800" y="100" width="120" height="160" rx="12" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <rect x="820" y="130" width="80" height="4" fill="rgba(255,255,255,0.6)"/>
+    <rect x="820" y="150" width="80" height="4" fill="rgba(255,255,255,0.6)"/>
+    <rect x="820" y="170" width="80" height="4" fill="rgba(255,255,255,0.6)"/>
+    <rect x="820" y="190" width="60" height="4" fill="rgba(255,255,255,0.4)"/>
+    
+    <!-- Main container -->
+    <rect x="312" y="312" width="400" height="400" rx="60" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.2)" stroke-width="3"/>
+    
+    <!-- Main text "BL" -->
+    <text x="512" y="520" font-family="Arial, sans-serif" font-size="180" font-weight="bold" text-anchor="middle" fill="white" style="text-shadow: 0 4px 8px rgba(0,0,0,0.3);">BL</text>
+    
+    <!-- Subtitle "DOCS" -->
+    <text x="512" y="620" font-family="Arial, sans-serif" font-size="48" font-weight="500" text-anchor="middle" fill="rgba(255,255,255,0.9)" letter-spacing="2px">DOCS</text>
+    
+    <!-- Decorative elements -->
+    <circle cx="150" cy="150" r="40" fill="rgba(255,255,255,0.1)"/>
+    <circle cx="880" cy="880" r="50" fill="rgba(255,255,255,0.1)"/>
+    <rect x="100" y="800" width="80" height="80" rx="20" fill="rgba(255,255,255,0.08)"/>
+</svg>
